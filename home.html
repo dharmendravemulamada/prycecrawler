@@ -1,0 +1,290 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+		<style type="text/css">.table thead tr.info > th {
+			background-color: #ddd;
+			}
+		</style>
+		<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script>
+			var y=0;
+			function f1(){	
+				var a=document.getElementById("h").value;
+				var b=a.split(";");
+				var i=document.getElementById("i").value;
+				//alert(i);
+				var i1=i.replace(" ","-");
+				var n=i1.length;
+				for (i2 = 0; i2 < b.length; i2++) {
+				
+					var x=b[i2].substring(0,n);
+					var m1=b[i2].length;
+					if(x==i1)
+					{
+						y=b[i2].substring(n+1,m1);
+						//alert(y);
+						
+						window.open("../pricecomparision/test2.html?var1="+y);
+			
+						
+					}
+				}
+				
+			}
+			
+			
+		</script>
+		<title>
+			price comparision
+		</title>
+		<link rel="shortcut icon" href="./image.png" />
+	</head>
+	<body style="background-image: url('./bak.png')">
+		<center>
+			<img src="./banner.jpg" />
+		</center>
+		<center>
+			<br/>
+			<a href="./test1.html"><img style="border:0px;" src="http://images.webestools.com/buttons.php?frm=1&btn_type=33&txt=Home"  alt="Home" /></a>
+			<script type="text/javascript">img=new Image();img.src= "http://images.webestools.com/buttons.php?frm=2&btn_type=33&txt=Home";</script>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="./test3.html"><img style="border:0px;" src="http://images.webestools.com/buttons.php?frm=1&btn_type=33&txt=ReadMe"  alt="ReadMe" /></a>
+			<script type="text/javascript">img=new Image();img.src= "http://images.webestools.com/buttons.php?frm=2&btn_type=33&txt=ReadMe";</script>
+		</center>
+		<form class="form-wrapper cf">
+			<input type="text" id="i" list="products" placeholder="Search here" />
+			<datalist id="products">
+				<option value="samsung-galaxy-note-4">
+				<option value="samsung-galaxy-e7">
+				<option value="samsung-galaxy-core-2-dual">
+				<option value="samsung-galaxy-grand-prime">
+				<option value="samsung-galaxy-grand-2-g7102">
+				<option value="samsung-galaxy-core-prime">
+				<option value="samsung-galaxy-star-advance">
+				<option value="samsung-galaxy-s5-active">
+				<option value="samsung-galaxy-s5">
+				<option value="samsung-galaxy-note-3">
+				<option value="samsung-galaxy-s-duos">
+				<option value="samsung-galaxy-sl">
+				<option value="samsung-galaxy-alpha">
+				<option value="samsung-galaxy-s5-mini-g870">
+				<option value="samsung-galaxy-note-3-neo">
+				<option value="samsung-galaxy-note-edge">
+				<option value="samsusng-galaxy-s-duos-2-s7582">
+				<option value="nokia-lumia-730">
+				<option value="nokia-xl">
+				<option value="nokia-x2-dual-sim">
+				<option value="nokia-x2">
+				<option value="nokia-lumia-630">
+				<option value="nokia-lumia-830">
+				<option value="nokia-lumia-520">
+				<option value="nokia-lumia-625">
+				<option value="nokia-lumia-530-dual-sim">
+				<option value="nokia-lumia-1020">
+				<option value="nokia-n8">
+				<option value="nokia-lumia-630-dual">
+				<option value="nokia-normandy">
+				<option value="nokia-asha-501">
+				<option value="nokia-5233">
+				<option value="nokia-130-dual-sim">
+				<option value="nokia-x-plus">
+				<option value="nokia-105">
+				<option value="nokia-225-dual-sim">
+				<option value="nokia-206">
+				<option value="lg-nexus-5">
+				<option value="lg-g3-mini">
+				<option value="lg-g3">
+				<option value="lg-g-pro-2">
+				<option value="lg-l-bello">
+				<option value="lg-g3-beat">
+				<option value="lg-optimus-l4-ii-dual-e445">
+				<option value="lg-optimus-l7-ii">
+				<option value="lg-optimus-black">
+				<option value="lg-g-flex">
+				<option value="micromax-canvas-nitro-a310">
+				<option value="micromax-unite-2-a106">
+				<option value="micromax-canvas-knight-a350">
+				<option value="micromax-canvas-gold-a300">
+				<option value="micromax-canvas-a1">
+				<option value="micromax-bolt-a065">
+				<option value="micromax-canvas-juice-a177">
+				<option value="micromax-canvas-2-colors-a120">
+				<option value="micromax-a110|">
+				<option value="micromax-canvas-hd-plus-a190">
+				<option value="micromax-canvas-knight-cameo-a290">
+				<option value="micromax-unite-2-8gb">
+				<option value="micromax-mad-a94">
+				<option value="micromax-e390">
+				<option value="apple-iphone-6">
+				<option value="apple-iphone-5s">
+				<option value="apple-iphone-4s">
+				<option value="apple-iphone-6-plus">
+				<option value="apple-iphone-6-plus-64gb">
+				<option value="apple-iphone-5c">
+				<option value="apple-iphone-5s-32gb">
+				<option value="apple-iphone-4-32gb">
+				<option value="apple-iphone-4-8gb">
+				<option value="apple-iphone-6-128gb">
+				<option value="apple-iphone-5-16gb">
+				<option value="apple-iphone-6-64gb">
+				<option value="apple-iphone-3g-8gb">
+				<option value="apple-iphone-4s-8gb">
+				<option value="apple-iphone-4s-32gb">
+				<option value="apple-iphone-5c-8gb">
+				<option value="apple-iphone-6-plus-128gb">
+				<option value="apple-iphone-3gs-16gb">
+				<option value="apple-iphone-5s-64gb">
+				<option value="apple-iphone-4-16gb">
+				<option value="apple-ipod-touch-8gb">
+				<option value="apple-iphone-5c-cdma-16gb">
+				<option value="apple-iphone-5">
+				<option value="apple-iphone-3gs">
+				<option value="apple-iphone-4s-64gb">
+				<option value="apple-iphone-5-64gb">
+				<option value="apple-iphone-3gs-32gb">
+				<option value="apple-ipod-touch-32gb-5th-generation">
+				<option value="apple-iphone-4">
+				<option value="apple-iphone-5c-32gb">
+				<option value="apple-iphone-4-cdma">
+				<option value="apple-iphone-3g-16gb">
+				<option value="apple-i-phone-16gb">
+				<option value="apple-i-phone-8gb">
+				<option value="apple-ipod-touch-32gb">
+				<option value="apple-ipod-touch-64gb-5th-generation">
+				<option value="apple-ipod-touch-64gb">
+				<option value="apple-iphone-6s">
+				<option value="apple-iphone-6s-64gb">
+				<option value="apple-iphone-6s-128gb">
+				<option value="motorola-moto-x-play-32gb">
+				<option value="motorola-moto-g-2nd-gen-dual-sim">
+				<option value="motorola-moto-g-3rd-gen-8gb">
+				<option value="motorola-moto-e">
+				<option value="motorola-moto-x">
+				<option value="motorola-moto-g">
+				<option value="motorola-moto-g-dual-sim">
+				<option value="motorola-moto-g-16gb">
+				<option value="motorola-moto-g-4g">
+				<option value="motorola-moto-x-plus-one">
+				<option value="motorola-moto-x-32gb">
+				<option value="motorola-droid">
+				<option value="motorola-droid-maxx">
+				<option value="motorola-droid-ultra">
+				<option value="motorola-droid-razr">
+				<option value="motorola-moto-x-wood-back">
+				<option value="motorola-defy-xt535">
+				<option value="motorola-droid-razr-hd">
+				<option value="motorola-droid-mini">
+				<option value="htc-desire-820">
+				<option value="htc-desire-816g">
+				<option value="htc-desire-816">
+				<option value="htc-desire-516">
+				<option value="htc-desire-820q">
+				<option value="htc-desire-700-dual-sim">
+				<option value="htc-desire-516c">
+				<option value="htc-one-m8">
+				<option value="htc-desire-eye">
+				<option value="htc-one">
+				<option value="htc-desire-210-dual-sim">
+				<option value="htc-butterfly-2">
+				<option value="htc-one-e8">
+				<option value="htc-desire-310">
+				<option value="htc-one-m8-eye">
+				<option value="htc-one-dual-sim">
+				<option value="htc-one-max">
+				<option value="htc-incredible-s">
+				<option value="htc-incredible">
+				<option value="sony-xperia-c">
+				<option value="sony-xperia-z3">
+				<option value="sony-xperia-e3-dual">
+				<option value="sony-xperia-c3">
+				<option value="sony-xperia-z2">
+				<option value="sony-xperia-c3-dual-sim">
+				<option value="sony-xperia-z-ultra">
+				<option value="sony-xperia-zr">
+				<option value="sony-xperia-m2">
+				<option value="sony-xperia-t2-ultra-dual">
+				<option value="sony-xperia-z3-dual">
+				<option value="sony-xperia-m">
+				<option value="sony-xperia-m2-aqua">
+				<option value="sony-xperia-z">
+				<option value="sony-xperia-ul">
+				<option value="sony-xperia-t3">
+				<option value="sony-xperia-sp-c5302">
+				<option value="sony-xperia-z1">
+				<option value="sony-xperia-m-dual">
+				<option value="sony-xperia-m2-dual">
+				<option value="blackberry-z3">
+				<option value="blackberry-z10">
+				<option value="blackberry-passport">
+				<option value="blackberry-z30">
+				<option value="blackberry-q5">
+				<option value="blackberry-q20">
+				<option value="blackberry-porsche-design-p9983">
+				<option value="blackberry-q10">
+				<option value="blackberry-p9981-porsche">
+				<option value="blackberry-curve-8520">
+				<option value="blackberry-torch-9800">
+				<option value="blackberry-bold-touch-9900">
+				<option value="blackberry-curve-9220">
+				<option value="blackberry-storm-9530">
+				<option value="blackberry-8830">
+				<option value="blackberry-torch-9860">
+				<option value="blackberry-bold-3-9780">
+				<option value="blackberry-curve-8310">
+				<option value="lenovo-idea-tab-a1000">
+				<option value="hcl-me-connect-v3">
+				<option value="lenovo-yoga-8-inch">
+				<option value="lenovo-ideatab-a3000">
+				<option value="swipe-halo-value">
+				<option value="iball-3g-7271">
+				<option value="samsung-galaxy-tab-3-t311">
+				<option value="dell-venue-7">
+				<option value="apple-ipad-air-16-gb-wifi">
+				<option value="apple-ipad4-128gb">
+				<option value="karbonn-a39-hd">
+				<option value="asus-google-nexus-7-32-gb-wi-fi">
+				<option value="samsung-galaxy-tab-3-neo">
+				<option value="sony-xperia-z-tablet-">
+				<option value="micromax-canvas-tab-p650-16gb">
+				<option value="swipe-mtv-slash">
+				<option value="karbonn-a37">
+				<option value="karbonn-a34-tablet">
+				<option value="swipe-mtv-volt-tablet">
+				<option value="apple-ipad-air-16-gb-wifi-with-cellular">
+				<option value="asus-r051cx">
+				<option value="asus-x53u">
+				<option value="hp-15-g002ax-notebook">
+				<option value="hp-2000-2d28tu-laptop">
+				<option value="apple-macbook-pro-md101hna">
+				<option value="asus-1015cx-laptop">
+				<option value="hp-envy-4">
+				<option value="toshiba-satellite-c850-i0015-laptop">
+				<option value="asus-k53sm-laptop">
+				<option value="asus-versatile-x550cc-xo029d-laptop">
+				<option value="acer-aspire-v5-431p-laptop">
+				<option value="hp-240-g3-laptop">
+				<option value="hp-pavilion-touchsmart-14-b171tu-sleekbook">
+				<option value="hp-pavilion-m6-1102tx-laptop">
+				<option value="dell-inspiron-15-3543-laptop">
+				<option value="dell-inspiron-15-3521-laptop">
+				<option value="apple-macbook-pro-mf839hna">
+				<option value="apple-macbook-air-mjvm2hna">
+				<option value="apple-macbook-pro-mf840hna">
+				<option value="apple-macbook-air-mjvg2hna">
+			</datalist>
+			<button onclick="f1()">Search</button>
+		</form>
+		<input type="hidden" name="sd" id="h" value="samsung-galaxy-note-4-81332;samsung-galaxy-e7-125805;samsung-galaxy-core-2-dual-81773;samsung-galaxy-grand-prime-111681;samsung-galaxy-grand-2-g7102-81113;samsung-galaxy-core-prime-119245;samsung-galaxy-star-advance-81962;samsung-galaxy-s5-active-81598;samsung-galaxy-s5-80951;samsung-galaxy-note-3-10759;samsung-galaxy-s-duos-10844;samsung-galaxy-sl-10875;samsung-galaxy-alpha-82133;samsung-galaxy-s5-mini-g870-81392;samsung-galaxy-note-3-neo-81331;samsung-galaxy-note-edge-82072;samsusng-galaxy-s-duos-2-s7582-81083;nokia-lumia-730-9045;nokia-xl-81469;nokia-x2-dual-sim-81705;nokia-x2-9112;nokia-lumia-630-80992;nokia-lumia-830-8997;nokia-lumia-520-8999;nokia-lumia-625-8989;nokia-lumia-530-dual-sim-111561;nokia-lumia-1020-32842;nokia-n8-9119;nokia-lumia-630-dual-111564;nokia-normandy-81338;nokia-asha-501-8993;nokia-5233-9037;nokia-130-dual-sim-111592;nokia-x-plus-81470;nokia-105-9002;nokia-225-dual-sim-111580;nokia-206-9010;lg-nexus-5-6970;lg-g3-mini-81578;lg-g3-81173;lg-g-pro-2-111611;lg-l-bello-82119;lg-g3-beat-111643;lg-optimus-l4-ii-dual-e445-32804;lg-optimus-l7-ii-6976;lg-optimus-black-7020;lg-g-flex-80602;micromax-canvas-nitro-a310-82054;micromax-unite-2-a106-81708;micromax-canvas-knight-a350-81277;micromax-canvas-gold-a300-81830;micromax-canvas-a1-111554;micromax-bolt-a065-82122;micromax-canvas-juice-a177-81510;micromax-canvas-2-colors-a120-81563;micromax-a110-8015;micromax-canvas-hd-plus-a190-82001;micromax-canvas-knight-cameo-a290-82141;micromax-unite-2-8gb-111570;micromax-mad-a94-81305;micromax-e390-8127;apple-iphone-6-756;apple-iphone-5s-759;apple-iphone-4s-776;apple-iphone-6-plus-82044;apple-iphone-6-plus-64gb-111610;apple-iphone-5c-80586;apple-iphone-5s-32gb-111575;apple-iphone-4-32gb-111621;apple-iphone-4-8gb-111584;apple-iphone-6-128gb-111711;apple-iphone-5-16gb-111596;apple-iphone-6-64gb-111715;apple-iphone-3g-8gb-111622;apple-iphone-4s-8gb-111594;apple-iphone-4s-32gb-775;apple-iphone-5c-8gb-111572;apple-iphone-6-plus-128gb-111646;apple-iphone-3gs-16gb-111593;apple-iphone-5s-64gb-111626;apple-iphone-4-16gb-111603;apple-ipod-touch-8gb-111658;apple-iphone-5c-cdma-16gb-111660;apple-iphone-5-764;apple-iphone-3gs-778;apple-iphone-4s-64gb-774;apple-iphone-5-64gb-111677;apple-iphone-3gs-32gb-111808;apple-ipod-touch-32gb-5th-generation-111722;apple-iphone-4-777;apple-iphone-5c-32gb-111880;apple-iphone-4-cdma-768;apple-iphone-3g-16gb-111950;apple-i-phone-16gb-780;apple-i-phone-8gb-779;apple-ipod-touch-32gb-112619;apple-ipod-touch-64gb-5th-generation-112451;apple-ipod-touch-64gb-112975;apple-iphone-6s-268847;apple-iphone-6s-64gb-269427;apple-iphone-6s-128gb-269466;motorola-moto-x-play-32gb-269289;motorola-moto-g-2nd-gen-dual-sim-82142;motorola-moto-g-3rd-gen-8gb-269196;motorola-moto-e-81580;motorola-moto-x-32837;motorola-moto-g-80877;motorola-moto-g-dual-sim-81152;motorola-moto-g-16gb-111565;motorola-moto-g-4g-111559;motorola-moto-x-plus-one-81592;motorola-moto-x-32gb-111624;motorola-droid-8638;motorola-droid-maxx-32834;motorola-droid-ultra-32836;motorola-droid-razr-8487;motorola-moto-x-wood-back-111666;motorola-defy-xt535-8467;motorola-droid-razr-hd-111780;motorola-droid-mini-32835;htc-desire-820-82113;htc-desire-816g-111682;htc-desire-816-81490;htc-desire-516-81513;htc-desire-820q-111699;htc-desire-700-dual-sim-111557;htc-desire-516c-125140;htc-one-m8-81662;htc-desire-eye-124963;htc-one-4334;htc-desire-210-dual-sim-81579;htc-butterfly-2-4324;htc-one-e8-81874;htc-desire-310-81261;htc-one-m8-eye-124973;htc-one-dual-sim-32722;htc-one-max-80676;htc-incredible-s-4361;htc-incredible-4435;sony-xperia-c-32879;sony-xperia-z3-81716;sony-xperia-e3-dual-111555;sony-xperia-c3-82005;sony-xperia-z2-81364;sony-xperia-c3-dual-sim-111556;sony-xperia-z-ultra-32882;sony-xperia-zr-11790;sony-xperia-m2-81464;sony-xperia-t2-ultra-dual-81322;sony-xperia-z3-dual-111591;sony-xperia-m-32880;sony-xperia-m2-aqua-82129;sony-xperia-z-11800;sony-xperia-ul-11792;sony-xperia-t3-81869;sony-xperia-sp-c5302-11797;sony-xperia-z1-33053;sony-xperia-m-dual-32881;sony-xperia-m2-dual-81463;blackberry-z3-81345;blackberry-z10-1212;blackberry-passport-81870;blackberry-z30-80545;blackberry-q5-1208;blackberry-q20-111726;blackberry-porsche-design-p9983-111661;blackberry-q10-1211;blackberry-p9981-porsche-1228;blackberry-curve-8520-1262;blackberry-torch-9800-1241;blackberry-bold-touch-9900-1236;blackberry-curve-9220-1225;blackberry-storm-9530-1261;blackberry-8830-1282;blackberry-torch-9860-1235;blackberry-bold-3-9780-111813;blackberry-curve-8310-1270;lenovo-idea-tab-a1000-120247;hcl-me-connect-v3-120213;lenovo-yoga-8-inch-120222;lenovo-ideatab-a3000-120313;swipe-halo-value-120591;iball-3g-7271-120224;samsung-galaxy-tab-3-t311-120214;dell-venue-7-120257;apple-ipad-air-16-gb-wifi-120278;apple-ipad4-128gb-120392;karbonn-a39-hd-120469;asus-google-nexus-7-32-gb-wi-fi-120350;samsung-galaxy-tab-3-neo-120248;sony-xperia-z-tablet-120215;micromax-canvas-tab-p650-16gb-120226;swipe-mtv-slash-120227;karbonn-a37-120509;karbonn-a34-tablet-120557;swipe-mtv-volt-tablet-120627;apple-ipad-air-16-gb-wifi-with-cellular-120211;asus-r051cx-123171;asus-x53u-123224;hp-15-g002ax-notebook-123228;hp-2000-2d28tu-laptop-123229;apple-macbook-pro-md101hna-123102;asus-1015cx-laptop-123105;hp-envy-4-123129;toshiba-satellite-c850-i0015-laptop-123862;asus-k53sm-laptop-123882;asus-versatile-x550cc-xo029d-laptop-123929;acer-aspire-v5-431p-laptop-123670;hp-240-g3-laptop-123744;hp-pavilion-touchsmart-14-b171tu-sleekbook-123782;hp-pavilion-m6-1102tx-laptop-123987;dell-inspiron-15-3543-laptop-266795;dell-inspiron-15-3521-laptop-267458;apple-macbook-pro-mf839hna-267865;apple-macbook-air-mjvm2hna-267960;apple-macbook-pro-mf840hna-268017;apple-macbook-air-mjvg2hna-268227;"/>
+		<br/>
+		<br/>
+		<br/>
+		<br/><br/>
+		<br/><br/>
+		<br/>
+		<br/>
+		<br/><br/>
+		<center>
+		<div style="color:black">&copy;Copy rights are reserved</div>
+		</center>
+	</body>
+</html>
